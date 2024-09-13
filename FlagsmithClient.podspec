@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlagsmithClient'
-  s.version          = '3.6.0'
+  s.version          = '3.6.2'
   s.summary          = 'iOS Client written in Swift for Flagsmith. Ship features with confidence using feature flags and remote config.'
   s.homepage         = 'https://github.com/Flagsmith/flagsmith-ios-client'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Flagsmith/flagsmith-ios-client.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/getflagsmith'
   s.resource_bundles = {
-    'FlagSmith_Privacy' => ['Classes/PrivacyInfo.xcprivacy'],
+    'Flagsmith_Privacy' => ['FlagsmithClient/Classes/PrivacyInfo.xcprivacy'],
   }
 
   s.ios.deployment_target = '12.0'
